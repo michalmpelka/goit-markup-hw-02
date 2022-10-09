@@ -259,13 +259,13 @@ footer {
   border: none;
   display: inline-block;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .buttonlist:hover {
   background-color: #21b4f3;
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .lioffer {
