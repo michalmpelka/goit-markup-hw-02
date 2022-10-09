@@ -5,6 +5,7 @@ body {
 
 a:hover {
   color: #2196f3;
+  transition: all 0.3s;
 }
 
 .logo {
