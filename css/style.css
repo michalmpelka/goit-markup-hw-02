@@ -7,6 +7,9 @@ header {
   background-color: #ffffff;
   width: 1600px;
   height: 80px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 a:hover {
@@ -38,6 +41,9 @@ a:hover {
   text-decoration: none;
 }
 
+nav {
+  padding-top: 16px;
+}
 ul {
   list-style-type: none;
 }
@@ -46,7 +52,6 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -59,7 +64,6 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -92,7 +96,6 @@ h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
   text-decoration: none;
@@ -127,14 +130,12 @@ h1 {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.03em;
 }
 
 .psection2 {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
   padding-top: 10px;
@@ -143,7 +144,6 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -175,7 +175,6 @@ h2 {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -184,7 +183,6 @@ h2 {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -201,7 +199,6 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -212,7 +209,6 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
@@ -222,7 +218,6 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
@@ -232,7 +227,6 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -280,7 +274,6 @@ footer {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -289,7 +282,6 @@ footer {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
   text-align: center;
   letter-spacing: 0.03em;
 }
