@@ -1,10 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #000;
 }
 
 header {
   background-color: #ffffff;
+  width: 1600px;
+  height: 80px;
 }
 
 a:hover {
@@ -12,7 +14,7 @@ a:hover {
   transition: all 0.3s;
 }
 
-.logo {
+.logo1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -21,7 +23,8 @@ a:hover {
   letter-spacing: 0.03em;
   color: #000;
   text-decoration: none;
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-left: 215px;
 }
 
 .logoblue {
@@ -33,7 +36,6 @@ a:hover {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
-  margin-top: 24px;
 }
 
 ul {
@@ -49,7 +51,8 @@ ul {
   color: #212121;
   text-decoration: none;
   list-style-type: none;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-left: 46px;
 }
 
 .link2 {
@@ -60,7 +63,8 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-right: 46px;
 }
 
 h1 {
@@ -102,6 +106,132 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.buttonmain:hover {
+.buttonmain:active {
   background-color: #21b4f3;
+}
+
+.wrapper {
+  display: flex;
+}
+.section2 {
+  padding-top: 94px;
+  background-color: #ffffff;
+}
+
+.h2hide {
+  display: none;
+}
+
+.h3left {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.psection2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-top: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+}
+
+.section3 {
+  background-color: #ffffff;
+  padding-top: 94px;
+}
+
+.section4 {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  padding-top: 94px;
+}
+
+.liteam {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.psection4 {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.h3center {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+}
+
+.logo2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logowhite {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.link3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.address1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
