@@ -181,9 +181,9 @@ h2 {
 
 .h3center {
   color: #212121;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -234,4 +234,61 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.section5 {
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+
+.buttonlist {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.buttonlist:hover {
+  background-color: #21b4f3;
+  color: #ffffff;
+}
+
+.lioffer {
+  width: 370px;
+  height: 294px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.h3portfolio {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.psection5 {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
