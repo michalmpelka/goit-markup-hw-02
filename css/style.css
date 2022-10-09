@@ -10,6 +10,7 @@ header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
+  display: flex;
 }
 
 a:hover {
@@ -42,6 +43,12 @@ a:hover {
 nav {
   padding-top: 16px;
 }
+
+.contact {
+  display: flex;
+  padding-top: 16px;
+}
+
 ul {
   list-style-type: none;
 }
