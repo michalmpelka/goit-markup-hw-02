@@ -3,6 +3,10 @@ body {
   color: black;
 }
 
+header {
+  background-color: #ffffff;
+}
+
 a:hover {
   color: #2196f3;
   transition: all 0.3s;
@@ -17,6 +21,7 @@ a:hover {
   letter-spacing: 0.03em;
   color: #000;
   text-decoration: none;
+  margin-top: 24px;
 }
 
 .logoblue {
@@ -28,6 +33,7 @@ a:hover {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  margin-top: 24px;
 }
 
 ul {
@@ -43,6 +49,7 @@ ul {
   color: #212121;
   text-decoration: none;
   list-style-type: none;
+  margin-top: 32px;
 }
 
 .link2 {
@@ -53,4 +60,48 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  margin-top: 32px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 200px;
+}
+
+.section1 {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+
+.buttonmain {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin: 30px 700px 200px 700px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.buttonmain:hover {
+  background-color: #21b4f3;
 }
