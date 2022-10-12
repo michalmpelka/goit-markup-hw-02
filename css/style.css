@@ -105,8 +105,6 @@ a:hover {
   background-color: var(--background-color);
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
 }
 
 .buttonmain {
@@ -119,8 +117,6 @@ a:hover {
   text-align: center;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   margin: 30px 700px 200px 700px;
   border: none;
   display: inline-block;
@@ -206,7 +202,6 @@ a:hover {
   background-color: var(--background-color);
   width: 1600px;
   height: 252px;
-  left: 0px;
 }
 
 .logo2 {
@@ -249,8 +244,6 @@ a:hover {
 .section5 {
   width: 1170px;
   height: 1360px;
-  left: 215px;
-  top: 174px;
 }
 
 .buttonlist {
@@ -263,8 +256,6 @@ a:hover {
   text-align: center;
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
   border: none;
   display: inline-block;
   cursor: pointer;
