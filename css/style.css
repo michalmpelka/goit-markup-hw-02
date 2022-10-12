@@ -3,8 +3,25 @@ body {
   color: #000;
 }
 
+:root {
+  --main-color: #ffffff;
+  --background-color: #2f303a;
+  --background2-color: #f5f4fa;
+  --background3-color: #f5f4fa;
+  --border-bottom-color: #ececec;
+  --logo1-color: #000;
+  --main2-color: #2196f3;
+  --link1-color: #212121;
+  --link2-color: #757575;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --box-shadow2: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --button-active-color: #21b4f3;
+  --border-color: #eeeeee;
+}
+
 header {
-  background-color: #ffffff;
+  color: var(--main-color);
   width: 1600px;
   height: 80px;
   border-bottom-width: 1px;
@@ -14,17 +31,15 @@ header {
 }
 
 a:hover {
-  color: #2196f3;
+  color: var(--main2-color);
   transition: all 0.3s;
 }
 
 .logo1 {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--logo1-color);
   text-decoration: none;
   padding-top: 24px;
   padding-left: 215px;
@@ -36,7 +51,7 @@ a:hover {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main2-color);
   text-decoration: none;
 }
 
@@ -58,7 +73,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--link1-color);
   text-decoration: none;
   list-style-type: none;
   padding-top: 32px;
@@ -70,7 +85,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link2-color);
   text-decoration: none;
   padding-top: 32px;
   padding-right: 46px;
@@ -80,14 +95,14 @@ h1 {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-color);
   text-align: center;
   margin-top: auto;
   padding-top: 200px;
 }
 
 .section1 {
-  background-color: #2f303a;
+  background-color: var(--background-color);
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -96,8 +111,8 @@ h1 {
 
 .buttonmain {
   font-family: "Roboto", sans-serif;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--main2-color);
+  color: var(--main-color);
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
@@ -110,11 +125,11 @@ h1 {
   border: none;
   display: inline-block;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--box-shadow);
   border-radius: 4px;
 }
 .buttonmain:active {
-  background-color: #21b4f3;
+  background-color: var(--button-active-color);
 }
 
 .wrapper {
@@ -122,7 +137,7 @@ h1 {
 }
 .section2 {
   padding-top: 94px;
-  background-color: #ffffff;
+  background-color: var(--main-color);
 }
 
 .h2hide {
@@ -130,7 +145,7 @@ h1 {
 }
 
 .h3left {
-  color: #212121;
+  color: var(--link1-color);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -140,7 +155,7 @@ h1 {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link2-color);
   padding-top: 10px;
 }
 
@@ -148,17 +163,17 @@ h2 {
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link1-color);
   padding-bottom: 50px;
 }
 
 .section3 {
-  background-color: #ffffff;
+  background-color: var(--main-color);
   padding-top: 94px;
 }
 
 .section4 {
-  background-color: #f5f4fa;
+  background-color: var(--background2-color);
   width: 1600px;
   height: 648px;
   padding-top: 94px;
@@ -167,14 +182,13 @@ h2 {
 .liteam {
   width: 270px;
   height: 368px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--main-color);
+  box-shadow: var(--box-shadow2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .psection4 {
-  color: #757575;
+  color: var(--link2-color);
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -182,14 +196,14 @@ h2 {
 }
 
 .h3center {
-  color: #212121;
+  color: var(--link1-color);
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--background-color);
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -201,7 +215,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -211,7 +225,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main2-color);
   text-decoration: none;
 }
 
@@ -220,7 +234,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link2-color);
   text-decoration: none;
 }
 
@@ -229,7 +243,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .section5 {
@@ -241,8 +255,8 @@ footer {
 
 .buttonlist {
   font-family: "Roboto", sans-serif;
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--background3-color);
+  color: var(--link1-color);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -258,27 +272,27 @@ footer {
 }
 
 .buttonlist:hover {
-  background-color: #21b4f3;
-  color: #ffffff;
+  background-color: var(--main2-color);
+  color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .lioffer {
   width: 370px;
   height: 294px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: var(--main-color);
+  border: 1px solid var(--border-color);
 }
 
 .h3portfolio {
-  color: #212121;
+  color: var(--link1-color);
   font-size: 18px;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 .psection5 {
-  color: #757575;
+  color: var(--link2-color);
   font-weight: 400;
   font-size: 16px;
   text-align: center;
